@@ -44,8 +44,8 @@ function kruskal(edges, n) {
 }
 ```
 
-Another example – find groups of elements with connectivity defined by `fn` ([optimised variant](https://github.com/kolesnikovde/subsets)):
-```
+Another example – find groups of elements with connectivity defined by `fn` (see [optimised variant](https://github.com/kolesnikovde/subsets)):
+```js
 function subsets(items, fn) {
   var set = new DisjointSet(items.length),
       roots = set.roots,
